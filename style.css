@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+
+.header{
+    background-color: #000;
+}
+.hed{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+}
+
+.log{
+    margin: 2vw;
+    font-size: 1.3vw;
+    color:rgb(212, 212, 212);
+    margin-left: 4vw;
+    /* border: 2px solid red; */
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    margin: 2vw;
+    width: 40vw;
+    /* margin-right: 4vw; */
+    /* background-color: white; */
+}
+.navbar a{
+    padding: 0.5vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    margin-left: 2vw;
+    font-size: 1.3vw;
+    color:rgb(212, 212, 212);
+    /* border: 2px solid red; */
+
+}
+.navbar .Home{
+    background-color: white;
+    padding: 0.5vw;
+    color: rgb(68, 68, 68);
+    padding-left: 1vw;
+    padding-right: 1vw;
+    border-radius: 3px 3px 3px;
+}
+
+.navbar a:hover{
+    color: rgb(68, 68, 68);
+    transition: 1s;
+    background-color: white;
+    padding: 0.5vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    border-radius: 3px 3px 3px;
+}
+
+/* <!--------------------------------------- Home section -------------------------------> */
+
+.content{
+    /* border: 1px solid; */
+      display: flex;
+      /* align-items: center; */
+      height: 85vh;
+      margin-left: 6vw;
+      margin-right: 6vw;
+}
+.pera{
+    /* border: 1px solid; */
+    margin-top: 7vw;
+    margin-right: 19vw;
+    height: 50vh;
+
+}
+
+.pera h1{
+    font-size: 3vw;
+    width: 40vw;
+    /* border: 1px solid; */
+}
+.pic{
+    /* border: 1px solid; */
+    margin-top: 5vw;
+    height: 60vh;
+}
+.pic img{
+    width: 30vw;
+    padding-right: 2vw;
+
+}
+.pera p{
+    width: 40vw;
+    font-size: 1.4vw;
+    margin-top: 3vw;
+}
+/* From Uiverse.io by cssbuttons-io */ 
+
+.btn{
+    margin-top: 3vw;
+}
+.btn button {
+  --color: black;
+  background-color: white;
+  font-family: inherit;
+  display: inline-block;
+  width: 9em;
+  height: 3.1em;
+  line-height: 2.5em;
+  margin: 20px;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  border: 2px solid;
+  transition: color 0.5s;
+  z-index: 1;
+  font-size: 17px;
+  border-radius: 6px;
+  font-weight: 500;
+  color: var(--color);
+}
+
+button:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background: var(--color);
+  height: 150px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+button:hover {
+  color: #fff;
+}
+
+button:before {
+  top: 100%;
+  left: 100%;
+  transition: all 0.7s;
+}
+
+button:hover:before {
+  top: -30px;
+  left: -30px;
+}
+
+button:active:before {
+  background: rgb(37, 37, 37);
+  transition: background 0s;
+}
+
+
